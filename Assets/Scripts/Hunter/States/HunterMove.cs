@@ -102,6 +102,7 @@ public class HunterMove : HunterStates
                 // Decide se é o Agente mais próximo
                 if (distance <= closestDistance)
                 {
+                    closestDistance = distance;
                     target = occupiedTiles[i];
                 }
             }
